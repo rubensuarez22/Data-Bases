@@ -1,0 +1,2 @@
+cd C:\Users\ruben\Desktop\Transactions\Transaction
+java -cp ".;C:\Users\ruben\Desktop\Transactions\Transaction\mysql-connector-java-8.0.24.jar" TransactionMySQL

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DatabaseMainUI">
+  <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="593" height="276"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="93027" class="javax.swing.JButton" binding="roomsButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rooms"/>
+        </properties>
+      </component>
+      <component id="8f0d5" class="javax.swing.JButton" binding="validationsButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Validations"/>
+        </properties>
+      </component>
+      <component id="faf81" class="javax.swing.JButton" binding="schedulesButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Schedules"/>
+        </properties>
+      </component>
+      <component id="65195" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Please, Select an Option:"/>
+        </properties>
+      </component>
+      <component id="2165f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CLASSROOM SCHEDULE MANAGEMENT"/>
+        </properties>
+      </component>
+      <component id="3230d" class="javax.swing.JButton" binding="reservationsButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reservations"/>
+        </properties>
+      </component>
+      <component id="fc1d5" class="javax.swing.JButton" binding="logOutButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Log Out"/>
+        </properties>
+      </component>
+      <component id="dda50" class="javax.swing.JLabel" binding="Isolation">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Isolation Level: 2"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

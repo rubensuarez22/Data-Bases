@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ScheduleUI">
+  <scrollpane id="a40b5" binding="scrollPane">
+    <constraints>
+      <xy x="20" y="20" width="500" height="689"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="SchedulePanel" layout-manager="GridLayoutManager" row-count="20" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f8baa" class="javax.swing.JButton" binding="scheduleButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Schedule"/>
+            </properties>
+          </component>
+          <component id="659fb" class="javax.swing.JButton" binding="filteredScheduleButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Filtered Schedule"/>
+            </properties>
+          </component>
+          <component id="bd350" class="javax.swing.JButton" binding="addAnEntryButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Add an entry"/>
+            </properties>
+          </component>
+          <component id="875cb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Select an option:"/>
+            </properties>
+          </component>
+          <component id="a5596" class="javax.swing.JTextField" binding="textField1">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Enter schedule filter (e.g. &quot;weekd = 2&quot;)"/>
+            </properties>
+          </component>
+          <component id="80d7a" class="javax.swing.JTextField" binding="textField2">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Course ID"/>
+            </properties>
+          </component>
+          <component id="2afa5" class="javax.swing.JTextField" binding="textField3">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Section"/>
+            </properties>
+          </component>
+          <component id="44aa2" class="javax.swing.JTextField" binding="textField4">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Week Day (S/M/T/W/TH/F/SA)"/>
+            </properties>
+          </component>
+          <component id="f5aba" class="javax.swing.JTextField" binding="textField5">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Hour"/>
+            </properties>
+          </component>
+          <component id="229f3" class="javax.swing.JTextField" binding="textField6">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Minute"/>
+            </properties>
+          </component>
+          <component id="cc3e" class="javax.swing.JTextField" binding="textField7">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Duration (in minutes)"/>
+            </properties>
+          </component>
+          <component id="3f92c" class="javax.swing.JTextField" binding="textField8">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Period (SPRING-(21-24) or WINTER-(21-24))"/>
+            </properties>
+          </component>
+          <component id="58300" class="javax.swing.JTextField" binding="textField9">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Semester"/>
+            </properties>
+          </component>
+          <component id="472bc" class="javax.swing.JTextField" binding="textField10">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Room ID"/>
+            </properties>
+          </component>
+          <component id="b9426" class="javax.swing.JTextField" binding="textField11">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;Attribute&gt; = &lt;Value&gt;"/>
+            </properties>
+          </component>
+          <component id="67630" class="javax.swing.JTextField" binding="textField12">
+            <constraints>
+              <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Course ID"/>
+            </properties>
+          </component>
+          <component id="3c1b1" class="javax.swing.JTextField" binding="textField13">
+            <constraints>
+              <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Course Section"/>
+            </properties>
+          </component>
+          <component id="35249" class="javax.swing.JTextField" binding="textField14">
+            <constraints>
+              <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Period (SPRING-(21-24) or WINTER-(21-24))"/>
+            </properties>
+          </component>
+          <component id="663ec" class="javax.swing.JTextField" binding="textField15">
+            <constraints>
+              <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Select day from the schedule (1: Sunday and 7: Monday)"/>
+            </properties>
+          </component>
+          <component id="a08ec" class="javax.swing.JTextField" binding="textField16">
+            <constraints>
+              <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Course ID"/>
+            </properties>
+          </component>
+          <component id="6748a" class="javax.swing.JButton" binding="returnButton" default-binding="true">
+            <constraints>
+              <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Return"/>
+            </properties>
+          </component>
+          <component id="630e7" class="javax.swing.JLabel" binding="results">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="99b00" class="javax.swing.JButton" binding="modifyScheduleButton" default-binding="true">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Modify Schedule"/>
+            </properties>
+          </component>
+          <component id="15d57" class="javax.swing.JCheckBox" binding="specificDayCheckBox" default-binding="true">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Specific Day?"/>
+            </properties>
+          </component>
+          <component id="c2bcd" class="javax.swing.JButton" binding="deleteCourseButton" default-binding="true">
+            <constraints>
+              <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Delete Course"/>
+            </properties>
+          </component>
+          <component id="cbd50" class="javax.swing.JLabel" binding="proyection">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+</form>
